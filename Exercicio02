@@ -1,0 +1,33 @@
+import javax.swing.JOptionPane;
+
+public class Exercicio02{
+
+    public static void main (String [] args ){
+
+        String[] nomes = new String [10];
+                 nomes[0] = "Cristiane" ;
+                 nomes[1] = "Luciana" ;
+                 nomes[2] = "Tainara" ;
+                 nomes[3] = "Ozias" ;
+                 nomes[4] = "Marta" ;
+                 nomes[5] = "Andre" ;
+                 nomes[6] = "Yuri" ;
+                 nomes[7] = "Luis" ;
+                 nomes[8] = "Vinicius" ;
+                 nomes[9] = "João Vitor" ;
+
+        System.out.println(   "Nome 1 : " +nomes[0]
+                           +"\nNome 2 : " +nomes[1]
+                           +"\nNome 3 : " +nomes[2]
+                           +"\nNome 4 : " +nomes[3]
+                           +"\nNome 5 : " +nomes[4]
+                           +"\nNome 6 : " +nomes[5]
+                           +"\nNome 7 : " +nomes[6]
+                           +"\nNome 8 : " +nomes[7]
+                           +"\nNome 9 : " +nomes[8]
+                           +"\nNome 10 : " +nomes[9]
+                           );
+
+
+    }
+}

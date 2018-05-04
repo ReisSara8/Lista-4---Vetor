@@ -1,0 +1,48 @@
+import javax.swing.JOptionPane;
+
+    public class Exercicio01{
+
+        public static void main (String [] args ) {
+
+            int[] numeros = new int [16];
+                  numeros[0] = 213;
+                  numeros[1] = 67;
+                  numeros[2] = 821;
+                  numeros[3] = 14;
+                  numeros[4] = 70;
+                  numeros[5] = 222;
+                  numeros[6] = 46;
+                  numeros[7] = 31;
+                  numeros[8] = 100;
+                  numeros[9] = 58;
+                  numeros[10] = 97;
+                  numeros[11] = 3;
+                  numeros[12] = 77;
+                  numeros[13] = 56;
+                  numeros[14] = 81;
+                  numeros[15] = 9;
+
+                  int soma = numeros[0]+
+                             numeros[1]+
+                             numeros[2]+
+                             numeros[3]+
+                             numeros[4]+
+                             numeros[5]+
+                             numeros[6]+
+                             numeros[7]+
+                             numeros[8]+
+                             numeros[9]+
+                             numeros[10]+
+                             numeros[11]+
+                             numeros[12]+
+                             numeros[13]+
+                             numeros[14]+
+                             numeros[15];
+
+                System.out.println("O resultado da soma foi igual a " +soma);
+
+                             
+                
+                   
+        }
+    }

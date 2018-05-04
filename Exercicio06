@@ -1,0 +1,66 @@
+import javax.swing.JOptionPane;
+
+public class Exercicio06{
+
+    public static void main(String[] args) {
+        
+        int idade1 = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade 1"));
+        int idade2 = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade 2"));
+        int idade3 = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade 3"));
+        int idade4 = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade 4"));
+        int idade5 = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade 5"));
+        int idade6 = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade 6"));
+        int idade7 = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade 7"));
+        int idade8 = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade 8"));
+        int idade9 = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade 9"));
+
+        int[] idades = new int [9];
+              idades[0] = idade1;
+              idades[1] = idade2;
+              idades[2] = idade3;
+              idades[3] = idade4;
+              idades[4] = idade5;
+              idades[5] = idade6;
+              idades[6] = idade7;
+              idades[7] = idade8;
+              idades[8] = idade9;
+
+        int maiorIdade = 0;
+        if(idades[0] >maiorIdade){
+            maiorIdade = idades[0];
+        }if(idades[1] >maiorIdade){
+            maiorIdade = idades[1];
+        }if(idades[2] >maiorIdade){
+            maiorIdade = idades[2];
+        }if(idades[3] >maiorIdade){
+            maiorIdade = idades[3];
+        }if(idades[4] >maiorIdade){
+            maiorIdade = idades[4];
+        }if(idades[5] >maiorIdade){
+            maiorIdade = idades[5];
+        }if(idades[6] >maiorIdade){
+            maiorIdade = idades[6];
+        }if(idades[7] >maiorIdade){
+            maiorIdade = idades[7];
+        }if(idades[8] >maiorIdade){
+            maiorIdade = idades[8];
+        }
+
+        JOptionPane.showMessageDialog(null,
+            "Idades digitadas :"
+            +"\n1º Idade : " + idades[0]
+            +"\n2º Idade : " + idades[1]
+            +"\n3º Idade : " + idades[2]
+            +"\n4º Idade : " + idades[3]
+            +"\n5º Idade : " + idades[4]
+            +"\n6º Idade : " + idades[5]
+            +"\n7º Idade : " + idades[6]
+            +"\n8º Idade : " + idades[7]
+            +"\n9º Idade : " + idades[8]
+            +"\n"
+           +"\n A maior idade digitada foi : " +maiorIdade
+            );
+
+
+    }
+}

@@ -1,0 +1,28 @@
+import javax.swing.JOptionPane;
+
+public class Exercicio03{
+
+    public static void main(String[] args) {
+
+        String[] nomes = new String [7];
+                 nomes[0] = "Sabonete Dove" ;
+                 nomes[1] = "Desodorante Rexona";
+                 nomes[2] = "Leite Mega Milk";
+                 nomes[3] = "Arroz parboilizado D'avó" ;
+                 nomes[4] = "Azeitonas argentinas" ;
+                 nomes[5] = "Macarrão instâneo Nissin" ;
+                 nomes[6] = "Nescafé vidro" ;
+
+        double[] precos = new double [7];
+                 precos[0] = 5.95 ;
+                 precos[1] = 10.97 ;
+                 precos[2] = 2.19 ;
+                 precos[3] = 7.99 ;
+                 precos[4] = 7.97 ;
+                 precos[5] = 1.05 ;
+                 precos[6] = 11.97 ;
+
+       
+        
+    }
+}

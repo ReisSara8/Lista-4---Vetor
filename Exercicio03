@@ -22,7 +22,7 @@ public class Exercicio03{
                  precos[5] = 1.05 ;
                  precos[6] = 11.97 ;
                  
-        System.out.println(
+        JOptionPane.showMessageDialog(null,
                "Produto : "  + nomes[0] + " Preço = " + precos[0]
             +"\nProduto : "  + nomes[1] + " Preço = " + precos[1]
             +"\nProduto : "  + nomes[2] + " Preço = " + precos[2]

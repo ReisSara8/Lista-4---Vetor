@@ -23,7 +23,7 @@ public class Exercicio05{
                       pesos[3]+
                       pesos[4];
                       
-        double media = soma / 5;
+        double media = soma / pesos.length;
 
         JOptionPane.showMessageDialog(null,
                       "Olá, a soma dos pesos digitados é igual a : " + soma

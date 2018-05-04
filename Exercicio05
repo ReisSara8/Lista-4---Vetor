@@ -1,0 +1,34 @@
+import javax.swing.JOptionPane;
+
+public class Exercicio05{
+
+    public static void main(String[] args) {
+        
+        double peso1 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 1"));
+        double peso2 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 2"));
+        double peso3 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 3"));
+        double peso4 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 4"));
+        double peso5 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 5"));
+
+        double[] pesos = new double [5];
+                 pesos[0] = peso1;
+                 pesos[1] = peso2;
+                 pesos[2] = peso3;
+                 pesos[3] = peso4;
+                 pesos[4] = peso5;
+
+        double soma = pesos[0]+
+                      pesos[1]+
+                      pesos[2]+
+                      pesos[3]+
+                      pesos[4];
+                      
+        double media = soma / 5;
+
+        JOptionPane.showMessageDialog(null,
+                      "Olá, a soma dos pesos digitados é igual a : " + soma
+                      +"\nE a média é  : " + media
+                      );
+
+    }
+}

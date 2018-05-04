@@ -4,11 +4,11 @@ public class Exercicio05{
 
     public static void main(String[] args) {
         
-        double peso1 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 1"));
-        double peso2 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 2"));
-        double peso3 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 3"));
-        double peso4 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 4"));
-        double peso5 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 5"));
+        double peso1 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 1 :"));
+        double peso2 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 2 :"));
+        double peso3 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 3 :"));
+        double peso4 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 4 :"));
+        double peso5 = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso 5 :"));
 
         double[] pesos = new double [5];
                  pesos[0] = peso1;

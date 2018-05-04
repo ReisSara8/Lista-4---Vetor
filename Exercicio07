@@ -1,0 +1,42 @@
+import javax.swing.JOptionPane;
+
+public class Exercicio07{
+
+    public static void main(String[] args) {
+        
+        double altura1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a altura do animal 1 :"));
+        double altura2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a altura do animal 2 :"));
+        double altura3 = Double.parseDouble(JOptionPane.showInputDialog("Digite a altura do animal 3 :"));
+        double altura4 = Double.parseDouble(JOptionPane.showInputDialog("Digite a altura do animal 4 :"));
+
+        double[] alturas = new double [4];
+                 alturas[0] = altura1;
+                 alturas[1] = altura2;
+                 alturas[2] = altura3;
+                 alturas[3] = altura4;
+
+        double menorAltura = Double.MAX_VALUE;
+               if(alturas[0] <menorAltura){
+                   menorAltura = alturas[0];
+               }if(alturas[1] <menorAltura){
+                menorAltura = alturas[1];
+               }if(alturas[2] <menorAltura){
+                menorAltura = alturas[2];
+               }if(alturas[3] <menorAltura){
+                menorAltura = alturas[3];
+               }
+
+        JOptionPane.showMessageDialog(null,
+                       "Alturas digitadas :"
+               +"\n1º altura : " + alturas[0] +" m"
+               +"\n2º altura : " + alturas[1] +" m"
+               +"\n3º altura : " + alturas[2] +" m"
+               +"\n4º altura : " + alturas[3] +" m"
+               +"\n"
+               +"\nO animal com a menor altura tem : " +menorAltura +" m"
+               );
+
+
+
+    }
+}
